@@ -17,7 +17,6 @@
 		D7F4C2E5228FE6B1007F8601 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4C2E4228FE6B1007F8601 /* SafariExtensionHandler.swift */; };
 		D7F4C2E7228FE6B1007F8601 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F4C2E6228FE6B1007F8601 /* SafariExtensionViewController.swift */; };
 		D7F4C2EA228FE6B1007F8601 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F4C2E8228FE6B1007F8601 /* SafariExtensionViewController.xib */; };
-		D7F4C2EF228FE6B1007F8601 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D7F4C2EE228FE6B1007F8601 /* ToolbarItemIcon.pdf */; };
 		D7F4C2FB228FE6C3007F8601 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = D7F4C2FA228FE6C3007F8601 /* style.css */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +58,6 @@
 		D7F4C2E6228FE6B1007F8601 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
 		D7F4C2E9228FE6B1007F8601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
 		D7F4C2EB228FE6B1007F8601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7F4C2EE228FE6B1007F8601 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		D7F4C2F0228FE6B1007F8601 /* No_Distractions_ for_Facebook_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "No_Distractions_ for_Facebook_Extension.entitlements"; sourceTree = "<group>"; };
 		D7F4C2FA228FE6C3007F8601 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,7 +128,6 @@
 				D7F4C2E6228FE6B1007F8601 /* SafariExtensionViewController.swift */,
 				D7F4C2E8228FE6B1007F8601 /* SafariExtensionViewController.xib */,
 				D7F4C2EB228FE6B1007F8601 /* Info.plist */,
-				D7F4C2EE228FE6B1007F8601 /* ToolbarItemIcon.pdf */,
 				D7F4C2F0228FE6B1007F8601 /* No_Distractions_ for_Facebook_Extension.entitlements */,
 				D7F4C2FA228FE6C3007F8601 /* style.css */,
 			);
@@ -233,7 +230,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F4C2EF228FE6B1007F8601 /* ToolbarItemIcon.pdf in Resources */,
 				D7F4C2FB228FE6C3007F8601 /* style.css in Resources */,
 				D7F4C2EA228FE6B1007F8601 /* SafariExtensionViewController.xib in Resources */,
 			);
@@ -410,6 +406,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "\"No Distractions\" for Facebook Extension/No_Distractions_ for_Facebook_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				INFOPLIST_FILE = "\"No Distractions\" for Facebook Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -417,6 +414,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.fb-minimiser.fb-minimiser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -429,6 +427,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "\"No Distractions\" for Facebook Extension/No_Distractions_ for_Facebook_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				INFOPLIST_FILE = "\"No Distractions\" for Facebook Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -436,6 +435,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.fb-minimiser.fb-minimiser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -451,12 +451,14 @@
 				CODE_SIGN_ENTITLEMENTS = "\"No Distractions\" for Facebook/No_Distractions_ for_Facebook.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				INFOPLIST_FILE = "\"No Distractions\" for Facebook/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.fb-minimiser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -471,12 +473,14 @@
 				CODE_SIGN_ENTITLEMENTS = "\"No Distractions\" for Facebook/No_Distractions_ for_Facebook.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				INFOPLIST_FILE = "\"No Distractions\" for Facebook/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MARKETING_VERSION = 1.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.fb-minimiser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
