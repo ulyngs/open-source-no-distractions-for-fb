@@ -406,7 +406,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "\"No Distractions\" for Facebook Extension/No_Distractions_ for_Facebook_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				INFOPLIST_FILE = "\"No Distractions\" for Facebook Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -414,7 +414,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.fb-minimiser.fb-minimiser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -427,7 +427,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "\"No Distractions\" for Facebook Extension/No_Distractions_ for_Facebook_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				INFOPLIST_FILE = "\"No Distractions\" for Facebook Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -435,7 +435,7 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.fb-minimiser.fb-minimiser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -451,14 +451,14 @@
 				CODE_SIGN_ENTITLEMENTS = "\"No Distractions\" for Facebook/No_Distractions_ for_Facebook.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				INFOPLIST_FILE = "\"No Distractions\" for Facebook/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.fb-minimiser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -473,14 +473,14 @@
 				CODE_SIGN_ENTITLEMENTS = "\"No Distractions\" for Facebook/No_Distractions_ for_Facebook.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = 7YEYWQKK25;
 				INFOPLIST_FILE = "\"No Distractions\" for Facebook/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ulriklyngs.fb-minimiser";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
