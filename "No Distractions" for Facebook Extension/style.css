@@ -1,6 +1,13 @@
 /******** MENU BAR ********/
+/* hide watch link */
+div[role="navigation"] > ul > li:nth-child(2),
+div[role="navigation"] > ul > li:nth-child(5) {
+    display: none !important;
+}
+
 /* hide gaming link */
-a[aria-label="Gaming"] {
+a[aria-label="Gaming"],
+a[aria-label="Watch"] {
     display: none !important;
 }
 
@@ -22,7 +29,8 @@ div[data-pagelet="VideoChatHomeUnit"] {
 
 /****** RIGHT SIDE BAR ********/
 /* hide sponsored content */
-div[data-pagelet="RightRail"] > div > div > div.l9j0dhe7 {
+div[data-pagelet="RightRail"] > div > div > div.l9j0dhe7,
+div[data-pagelet="RightRail"] > div > span > div > div.l9j0dhe7 {
     display: none !important;
 }
 
